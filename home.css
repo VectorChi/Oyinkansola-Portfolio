@@ -1,6 +1,7 @@
 * {
   margin: 0 auto;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 /* Top Nav */
@@ -28,7 +29,7 @@
 nav {
   display: flex;
 }
-.logo {
+.nav_content a {
   margin: 0;
   width: 197px;
 }
@@ -103,10 +104,16 @@ h1 {
 .hero_middle button {
   background-color: black;
   color: white;
-  padding: 16px 52px;
+  padding: 16px 40px;
   font-size: 16px;
   border: none;
   border-radius: 40px;
+  cursor: pointer;
+}
+.hero_middle button:hover {
+  background-color: white;
+  color: black;
+  outline: 1px solid black;
 }
 
 .vert_line {
@@ -192,11 +199,18 @@ h1 {
   margin: 0px;
 }
 .prj_content button {
+  cursor: pointer;
   padding: 16px 40px;
   background-color: white;
   border: 1px solid black;
   border-radius: 80px;
 }
+.prj_content button:hover {
+  border: none;
+  background-color: black;
+  color: white;
+}
+
 .prj_section img {
   margin: 0px;
 }
@@ -305,6 +319,12 @@ footer {
   color: black;
   border: none;
   border-radius: 80px;
+  cursor: pointer;
+}
+.top_sec button:hover {
+  background-color: black;
+  color: white;
+  outline: 1px solid white;
 }
 .social_links {
   margin: 0px;
@@ -325,7 +345,15 @@ footer {
   font-size: 20px;
   font-weight: 300;
 }
-.back_top p {
+.details span a {
+  text-decoration: none;
+  font-weight: 400;
+  color: white;
+}
+.details span a:hover {
+  text-decoration: underline;
+}
+.back_top a p {
   writing-mode: vertical-rl;
   color: white;
   font-family: "Playfair Display", serif;
@@ -333,12 +361,22 @@ footer {
   font-weight: 200;
   letter-spacing: 4px;
 }
+.details p,
+.details span {
+  padding-right: 8px;
+}
+
 .back_top {
   margin: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 12px;
+}
+.back_top a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
 }
 
 .foot_low {
@@ -347,4 +385,8 @@ footer {
   align-items: flex-end;
   width: 90%;
   padding-bottom: 64px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
 }
