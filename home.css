@@ -161,7 +161,7 @@ h1 {
   margin: 0px;
 }
 .prj_details h3 {
-  font-family: "Playfair Display" serif;
+  font-family: "Playfair Display", serif;
   font-size: 40px;
   font-weight: 700;
   width: 90%;
