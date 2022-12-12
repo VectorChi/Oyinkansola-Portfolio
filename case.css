@@ -5,6 +5,9 @@
 }
 
 /* Top Nav */
+.tgl_icon {
+  display: none;
+}
 .top_nav {
   display: flex;
   flex-direction: column;
@@ -268,10 +271,10 @@ h1 {
 }
 
 /* Content styling */
-.case_content {
-  /* width: 90%; */
-  /* padding: 84px 0px; */
-}
+/* .case_content {
+  width: 90%;
+  padding: 84px 0px;
+} */
 
 .points {
   display: flex;

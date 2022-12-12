@@ -5,6 +5,10 @@
 }
 
 /* Top Nav */
+
+.tgl_icon{
+  display: none;
+}
 .top_nav {
   display: flex;
   flex-direction: column;
