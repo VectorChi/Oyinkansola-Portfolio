@@ -131,13 +131,16 @@ h1 {
   gap: 4px;
   margin: 0px;
 }
-.hero_right p {
+.scroll {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 2px;
   writing-mode: vertical-rl;
   letter-spacing: 0.39em;
+  text-decoration: none;
+  color: black;
+  list-style: none;
 }
 
 /* projects */
