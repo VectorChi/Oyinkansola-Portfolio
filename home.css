@@ -212,6 +212,7 @@ h1 {
 }
 .case1 {
   text-decoration: none;
+  font-family: "Playfair Display", serif;
   color: black;
   cursor: pointer;
   padding: 16px 32px;
